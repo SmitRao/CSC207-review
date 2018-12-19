@@ -1,5 +1,13 @@
 package objectOrientedPractice;
 
+/**
+ * Toronto IS-A Place.
+ * Toronto RESPONDS-TO getting the population, etc.
+ * Toronto HAS-A mayor, etc.
+ * 
+ * @author smitr
+ *
+ */
 public class Toronto extends Place {
 	private String mayor;
 	private int population;
