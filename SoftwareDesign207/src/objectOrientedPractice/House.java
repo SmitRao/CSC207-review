@@ -1,6 +1,6 @@
 package objectOrientedPractice;
 
-public abstract class House {
+public abstract class House implements Inhabitable {
 	protected boolean basementIsFinished;
 	protected int sqft;
 	protected Place inPlace;

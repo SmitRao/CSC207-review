@@ -23,4 +23,14 @@ public class WhiteHouse extends House {
 		whiteHouse.openDoor();
 		whiteHouse.understandPlace();
 	}
+
+	@Override
+	public void live() {
+		System.out.println("Fun living here!");
+	}
+
+	@Override
+	public void hi() {
+		System.out.println("Say hi to the POTUS!");
+	}
 }
